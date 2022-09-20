@@ -1,0 +1,41 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§b§5§lUntravel §bServer Pack",
+		"description": "A new try to get a working gametest addon",
+		"uuid": "d67a3f57-83de-4371-8efe-7728d549395f",
+		"version": [1,0,0],
+		"min_engine_version": [1,17,0]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "032751ac-e168-4690-8814-6f0c1589db1c",
+			"version": [1,0,0]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "5a358385-bcd6-48ee-a278-1bd44dfc9404",
+			"version": [1,0,0],
+			"entry": "scripts/modules/Mx.js"
+		}
+	],
+	"dependencies": [
+		{
+			"description": "Minecraft module, required to use the Minecraft module",
+			"uuid": "b26a4d4c-afdf-4690-88f8-931846312678",
+			"version": "1.0.0-beta"
+		},
+		{
+			"description": "GameTest module, required to use the GameTest module",
+			"uuid": "6f4b6893-1bb6-42fd-b458-7fa3d0c89616",
+			"version": "1.0.0-beta"
+		},
+		{
+			"description": "mojang-minecraft-ui",
+			"uuid": "2bd50a27-ab5f-4f40-a596-3641627c635e",
+			"version": "1.0.0-beta"
+		}
+	]
+}
